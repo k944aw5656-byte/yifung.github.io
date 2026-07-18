@@ -35,7 +35,7 @@ const portfolioData = {
       year: "2025",
       medium: "石材、印泥",
       description: "將作品照片放進 assets/images，再更新 image 路徑即可。",
-      image: "assets/images/work-02.svg"
+      image: "assets/images/螢幕擷取畫面 2025-08-25 213601.png"
     },
     {
       title: "書法創作",
