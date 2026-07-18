@@ -22,7 +22,7 @@ const portfolioData = {
 
   works: [
     {
-      title: "篆刻作品一",
+      title: "事不過三",
       category: "篆刻",
       year: "2026",
       medium: "石材、印泥",
@@ -30,7 +30,7 @@ const portfolioData = {
       image: "assets/images/印屏一.png"
     },
     {
-      title: "篆刻作品二",
+      title: "事不過三",
       category: "篆刻",
       year: "2025",
       medium: "石材、印泥",
