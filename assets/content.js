@@ -27,7 +27,7 @@ const portfolioData = {
       year: "2026",
       medium: "石材、印泥",
       description: "可在此放入作品理念、尺寸、創作背景或參展紀錄。",
-      image: "assets/images/螢幕擷取畫面 2025-08-25 213512.png"
+      image: "assets/images/印屏一.png"
     },
     {
       title: "篆刻作品二",
@@ -35,7 +35,7 @@ const portfolioData = {
       year: "2025",
       medium: "石材、印泥",
       description: "將作品照片放進 assets/images，再更新 image 路徑即可。",
-      image: "assets/images/螢幕擷取畫面 2025-08-25 213601.png"
+      image: "assets/images/印屏二.png"
     },
     {
       title: "書法創作",
