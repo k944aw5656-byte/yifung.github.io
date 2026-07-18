@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="王奕方作品集網站" />
+  <title>王奕方｜作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" id="brandName">王奕方</a>
+    <button class="menu-button" id="menuButton" aria-label="開啟選單">☰</button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">關於我</a>
+      <a href="#works">作品</a>
+      <a href="#awards">經歷</a>
+      <a href="#contact">聯絡</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" id="heroEyebrow">藝術創作・篆刻・美術教育</p>
+        <h1 id="heroTitle">把創作，變成可以被看見的故事。</h1>
+        <p class="hero-text" id="heroDescription">
+          這是一個可自由編輯的個人作品集範本。你可以展示篆刻、書畫、繪畫、教學成果與得獎紀錄。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#works">瀏覽作品</a>
+          <a class="button secondary" href="#contact">聯絡我</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img id="heroImage" src="assets/images/hero-placeholder.svg" alt="作品主視覺" />
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>關於我</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="lead" id="aboutLead">
+            我關注線條、印痕與材料之間的關係，也持續將藝術創作轉化為教學現場中的探索經驗。
+          </p>
+        </div>
+        <div class="about-details">
+          <p id="aboutBody">
+            目前從事美術教育與個人創作。作品可依需求分為篆刻、書法、繪畫與教學專案等類別。
+            這裡可以放入你的創作理念、學歷、教學經驗或展覽簡介。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section muted" id="works">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">SELECTED WORKS</p>
+          <h2>精選作品</h2>
+        </div>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="section" id="awards">
+      <div class="section-heading">
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>得獎與經歷</h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>聯絡方式</h2>
+      </div>
+      <div class="contact-card">
+        <p id="contactIntro">歡迎洽詢展覽、委託創作、教學合作與作品交流。</p>
+        <div class="contact-links" id="contactLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> <span id="footerName">王奕方</span>. All rights reserved.</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="關閉">×</button>
+    <img id="lightboxImage" alt="" />
+    <div class="lightbox-copy">
+      <p class="eyebrow" id="lightboxMeta"></p>
+      <h3 id="lightboxTitle"></h3>
+      <p id="lightboxDescription"></p>
+    </div>
+  </dialog>
+
+  <script src="assets/content.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
