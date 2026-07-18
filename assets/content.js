@@ -10,7 +10,7 @@ const portfolioData = {
     title: "把創作，變成可以被看見的故事。",
     description:
       "這是一個可自由編輯的個人作品集範本。你可以展示篆刻、書畫、繪畫、教學成果與得獎紀錄。",
-    heroImage: "assets/images/hero-placeholder.svg",
+    heroImage: "assets/images/image-page-0001",
     aboutLead:
       "我關注線條、印痕與材料之間的關係，也持續將藝術創作轉化為教學現場中的探索經驗。",
     aboutBody:
@@ -27,7 +27,7 @@ const portfolioData = {
       year: "2026",
       medium: "石材、印泥",
       description: "可在此放入作品理念、尺寸、創作背景或參展紀錄。",
-      image: "assets/images/work-01.svg"
+      image: "assets/images/螢幕擷取畫面 2025-08-25 213512"
     },
     {
       title: "篆刻作品二",
